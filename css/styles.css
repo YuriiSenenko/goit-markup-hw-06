@@ -873,8 +873,11 @@ footer {
     box-sizing: border-box;
     border-radius: 4px;
     resize: none;
+}
+.coment-form::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
+
 .coment-form:focus-within {
     border-color: var(--accent-color);
     transition: border-color 250ms var(--animation-timing);
