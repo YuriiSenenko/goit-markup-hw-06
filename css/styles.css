@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
     box-sizing: border-box;
     width: 1200px;
     padding-left: 15px;
@@ -846,6 +846,8 @@ footer {
 }
 .form-input:focus-within {
     border-color: var(--accent-color);
+    transition: border-color 250ms var(--animation-timing);
+    outline: none;
 }
 .icon-form {
     position: absolute;
@@ -872,6 +874,11 @@ footer {
     border-radius: 4px;
     resize: none;
     color: rgba(117, 117, 117, 0.5);
+}
+.coment-form:focus-within {
+    border-color: var(--accent-color);
+    transition: border-color 250ms var(--animation-timing);
+    outline: none;
 }
 .lable-checkbox {
     display: flex;
