@@ -778,8 +778,9 @@ footer {
 }
 .close-button {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
-    padding: 6px;
     position: absolute;
     top: 8px;
     right: 8px;
@@ -793,8 +794,6 @@ footer {
     border-radius: 50%;
 }
 .close-icon {
-    align-content: center;
-    justify-content: center;
     width: 18px;
     height: 18px;
 
