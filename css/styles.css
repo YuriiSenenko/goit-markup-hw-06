@@ -809,6 +809,7 @@ footer {
     font-size: 20px;
     line-height: calc(23 / 20);
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .form-list {
     margin-top: 12px;
@@ -887,19 +888,19 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 20px;
+
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
 }
 .checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     position: absolute;
-
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
 }
 .checkbox-icon {
     margin-right: 7px;
